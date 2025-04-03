@@ -1,28 +1,28 @@
 const features = [
   {
-    icon: '📱',
-    title: 'Cross-Device Sync',
-    description: 'Keep your reading progress synchronized across all your devices in real-time.'
+    icon: '🗃️',
+    title: 'Centralized Python Dictionary',
+    description: 'All resources (books, magazines, DVDs, CDs) are stored in a memory-efficient Python dictionary, enabling real-time updates and instant access.'
   },
   {
-    icon: '☁️',
-    title: 'Cloud Backup',
-    description: 'Your entire library is securely backed up in the cloud with end-to-end encryption.'
+    icon: '⚡',
+    title: 'High-Speed Retrieval',
+    description: 'Retrieve data from collections with ultra-fast lookup speeds thanks to Python’s optimized hash-table implementation.'
   },
   {
     icon: '📊',
-    title: 'Reading Analytics',
-    description: 'Track your reading habits with detailed statistics and insights.'
+    title: 'Usage Analytics',
+    description: 'Track daily trends—including resource popularity, lending frequency, and inventory status—with built-in statistical tools.'
   },
   {
-    icon: '📚',
-    title: 'Multi-Format Support',
-    description: 'Supports EPUB, PDF, and other popular ebook formats.'
+    icon: '📈',
+    title: 'Scalable Architecture',
+    description: 'Easily expand collections with support for thousands of resources while maintaining performance.'
   },
   {
     icon: '🗂️',
-    title: 'Custom Collections',
-    description: 'Organize your books into custom collections and categories.'
+    title: 'Dynamic Categorization',
+    description: 'Organize resources by subject, format, type, or custom tags with flexible metadata management.'
   },
   {
     icon: '🔓',
