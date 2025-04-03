@@ -1,5 +1,3 @@
----
-
 ### **📚 LibriSync - Library Management System**  
 *A Python-based Library Management System for managing books, magazines, educational DVDs, and lecture CDs.*  
 
@@ -67,5 +65,3 @@ Feel free to **fork** the repository, raise **issues**, or submit a **pull reque
 2. Listed **ReactJS, Vite, EmailJS, Git API** for the frontend.  
 3. Kept **Python** for the backend.  
 4. Maintained the rest of the structure (features, installation, license, etc.).  
-
-Let me know if you'd like any further refinements! 🎉
