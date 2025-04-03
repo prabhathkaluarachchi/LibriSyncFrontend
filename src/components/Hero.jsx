@@ -3,10 +3,14 @@ export default function Hero() {
     <section className="hero">
       <div className="container">
         <div className="hero-content">
-          <h1 className="hero-title">Sync Your Reading <span>Everywhere</span></h1>
+          <h1 className="hero-title">
+          Manage Your Library <span>Everywhere</span>
+          </h1>
           <p className="hero-text">
-            LibriSync keeps your book library and reading progress synchronized across all your devices.
-            Never lose your place again.
+            <i>"<b>LibriSync</b> is a powerful Python-based system designed to organize and
+            manage all your educational resources in one place. Keep track of
+            books, magazines, DVDs, and CDs with effortless synchronization
+            across your institution."</i>
           </p>
           <div className="hero-buttons">
             <a
@@ -17,7 +21,9 @@ export default function Hero() {
             >
               View on GitHub
             </a>
-            <a href="#features" className="btn btn-outline">Learn More</a>
+            <a href="#features" className="btn btn-outline">
+              Learn More
+            </a>
           </div>
         </div>
       </div>
