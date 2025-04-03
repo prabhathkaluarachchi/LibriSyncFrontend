@@ -1,0 +1,91 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #3a6ea5;
+    --primary-dark: #1e3a8a;
+    --dark-bg: #0a0f1a;
+    --dark-card: #0f172a;
+    --text-light: #f8f9fa;
+    --text-muted: #94a3b8;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-light);
+    background-color: var(--dark-bg);
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+  
+  h1, h2, h3 {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    transition: var(--transition);
+    text-align: center;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-dark);
+  }
+  
+  /* Responsive breakpoints */
+  @media (max-width: 768px) {
+    section {
+      padding: 2rem 0;
+    }
+  }
+
+  /* src/styles/main.css */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-bg);
+}
+
+main {
+  flex: 1;
+}
+
+/* Add this if you're still seeing blue */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-bg) !important;
+}
