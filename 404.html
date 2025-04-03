@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script>
+      sessionStorage.redirect = location.href.replace('/LibriSyncFrontend', '');
+      location.replace('/LibriSyncFrontend/');
+    </script>
+  </head>
+  <body>
+    Redirecting to <a href="/LibriSyncFrontend/">/LibriSyncFrontend/</a>...
+  </body>
+</html>
