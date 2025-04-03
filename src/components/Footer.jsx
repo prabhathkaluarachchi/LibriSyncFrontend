@@ -33,8 +33,10 @@ export default function Footer() {
             © {new Date().getFullYear()} LibriSync. All rights reserved.
           </p>
           <div className="legal-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <p>
+              Code & Developed By
+            </p>
+            <a target='blank' href="https://prabhath.online/">Prabhath Kaluarachchi</a>
           </div>
         </div>
       </div>
