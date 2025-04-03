@@ -1,4 +1,32 @@
+import { useState, useEffect } from 'react';
+
 export default function GitHubInfo() {
+  const [repoData, setRepoData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchRepoData = async () => {
+      try {
+        const response = await fetch(
+          'https://api.github.com/repos/prabhathkaluarachchi/LibriSync'
+        );
+        if (!response.ok) throw new Error('Failed to fetch');
+        const data = await response.json();
+        setRepoData(data);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchRepoData();
+  }, []);
+
+  if (loading) return <div className="github-loading">Loading GitHub data...</div>;
+  if (error) return <div className="github-error">Error: {error}</div>;
+
   return (
     <section id="github" className="github-section">
       <div className="container">
@@ -21,11 +49,11 @@ export default function GitHubInfo() {
           <div className="github-stats">
             <div className="stat">
               <span className="stat-label">Stars:</span>
-              <span className="stat-value">0</span>
+              <span className="stat-value">{repoData?.stargazers_count || 0}</span>
             </div>
             <div className="stat">
               <span className="stat-label">Forks:</span>
-              <span className="stat-value">0</span>
+              <span className="stat-value">{repoData?.forks_count || 0}</span>
             </div>
           </div>
         </div>
