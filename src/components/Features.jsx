@@ -1,5 +1,3 @@
-import '../styles/components/features.css';
-
 const features = [
   {
     icon: '📱',

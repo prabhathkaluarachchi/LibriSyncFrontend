@@ -1,5 +1,3 @@
-import '../styles/components/github-info.css';
-
 export default function GitHubInfo() {
   return (
     <section id="github" className="github-section">

@@ -5,6 +5,7 @@ import GitHubInfo from './components/GitHubInfo'
 import About from './components/About'
 import Footer from './components/Footer'
 import './styles/main.css'
+import "./styles/components.css";
 
 
 
@@ -19,10 +20,6 @@ export default function App() {
       <About />
       <Footer />
     </div>
-
-
-
-
 
   )
 }

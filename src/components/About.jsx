@@ -1,5 +1,3 @@
-import '../styles/components/about.css';
-
 const technologies = ['React', 'Node.js', 'Express', 'MongoDB', 'Vite', 'CSS3'];
 
 export default function About() {
