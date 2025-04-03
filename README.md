@@ -1,12 +1,71 @@
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### **📚 LibriSync - Library Management System**  
+*A Python-based Library Management System for managing books, magazines, educational DVDs, and lecture CDs.*  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **🚀 Features**  
+✅ Add, remove, and update resources  
+✅ Categorized into Books, Magazines, Educational DVDs, and Lecture CDs  
+✅ View available and unavailable items  
+✅ Search by subject  
+✅ Lend and return resources  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## **🛠️ Technologies Used**  
+
+### **Frontend**  
+- **ReactJS** (UI Framework)  
+- **Vite** (Fast Build Tool)  
+- **EmailJS** (Email Notifications)  
+- **Git API** (Fetch Git Data)  
+
+### **Backend**  
+- **Python** (Core Logic)  
+
+---
+
+## **💻 Installation & Usage**  
+1. **Clone the repository**  
+   ```sh
+   git clone https://github.com/prabhathkaluarachchi/LibriSync.git
+   cd LibriSync
+   ```
+2. **Run the Python script**  
+   ```sh
+   python LibriSync.py
+   ```
+
+---
+
+## **📌 Future Enhancements**  
+- 📌 Add a database for resource storage  
+- 📌 Implement a GUI using Tkinter or PyQt  
+- 📌 Add user authentication  
+
+---
+
+## **📜 License**  
+This project is open-source and available under the **MIT License**.  
+
+---
+
+## **👨‍💻 Author**  
+Developed by **[Prabhath Kaluarachchi](https://github.com/prabhathkaluarachchi/)**  
+
+---
+
+### **📢 Contribute**  
+Feel free to **fork** the repository, raise **issues**, or submit a **pull request** to improve the system! �  
+
+---  
+
+### **Key Changes Made:**  
+1. Added **Frontend** and **Backend** subsections under **Technologies Used**.  
+2. Listed **ReactJS, Vite, EmailJS, Git API** for the frontend.  
+3. Kept **Python** for the backend.  
+4. Maintained the rest of the structure (features, installation, license, etc.).  
+
+Let me know if you'd like any further refinements! 🎉
