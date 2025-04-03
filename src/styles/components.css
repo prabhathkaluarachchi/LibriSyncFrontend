@@ -22,7 +22,7 @@
   }
   
   .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--primary-color);
   }
@@ -431,13 +431,13 @@
 .footer {
     background-color: var(--dark-card);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 3rem 0 0;
+    padding: 2rem 0 0;
   }
   
   .footer-content {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   
   .footer-brand {
@@ -490,6 +490,7 @@
   .footer-bottom {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -507,12 +508,18 @@
   
   .legal-links a {
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 1rem;
     transition: var(--transition);
   }
   
   .legal-links a:hover {
     color: var(--primary-color);
+  }
+
+  .footer-bottom p {
+    color: var(--text-muted);
+    font-size: 1rem;
+    
   }
   
   @media (max-width: 768px) {

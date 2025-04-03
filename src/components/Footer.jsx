@@ -32,9 +32,9 @@ export default function Footer() {
           </p>
           <div className="legal-links">
             <p>
-              Code & Developed By
+              Code & Developed By           
+            <a target='blank' href="https://prabhath.online/"> Prabhath Kaluarachchi</a>
             </p>
-            <a target='blank' href="https://prabhath.online/">Prabhath Kaluarachchi</a>
           </div>
         </div>
       </div>
