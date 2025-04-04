@@ -58,10 +58,3 @@ Developed by **[Prabhath Kaluarachchi](https://github.com/prabhathkaluarachchi/)
 ### **📢 Contribute**  
 Feel free to **fork** the repository, raise **issues**, or submit a **pull request** to improve the system! �  
 
----  
-
-### **Key Changes Made:**  
-1. Added **Frontend** and **Backend** subsections under **Technologies Used**.  
-2. Listed **ReactJS, Vite, EmailJS, Git API** for the frontend.  
-3. Kept **Python** for the backend.  
-4. Maintained the rest of the structure (features, installation, license, etc.).  
