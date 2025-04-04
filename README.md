@@ -56,5 +56,5 @@ Developed by **[Prabhath Kaluarachchi](https://github.com/prabhathkaluarachchi/)
 ---
 
 ### **📢 Contribute**  
-Feel free to **fork** the repository, raise **issues**, or submit a **pull request** to improve the system! �  
+Feel free to **fork** the repository, raise **issues**, or submit a **pull request** to improve the system! 
 
